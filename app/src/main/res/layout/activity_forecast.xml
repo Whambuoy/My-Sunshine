@@ -22,4 +22,29 @@
             android:textSize="20sp"/>
     </ScrollView>
 
+    <!--TODO (29) Add a TextView that you will show the user if there is an error loading content-->
+    <!--TODO (30) Make the width and the height wrap_content-->
+    <!--TODO (31) Give the TextView a default error message stating that an error occurred (use strings.xml)-->
+    <!--TODO (32) Set the default visibility of the TextView to invisible-->
+    <TextView
+        android:id="@+id/tv_error_message_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/error_message"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <!--TODO (39) Add a ProgressBar to show the user content is loading-->
+    <!--TODO (40) Make the width and height of the ProgressBar 42dp-->
+    <!--TODO (41) Set the layout_gravity of the ProgressBar to center-->
+    <!--TODO (42) Set the default visibility of the ProgressBar to invisible-->
+
+    <ProgressBar
+        android:id="@+id/pb_loading_indicator"
+        android:layout_height="42dp"
+        android:layout_width="42dp"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
 </FrameLayout>
